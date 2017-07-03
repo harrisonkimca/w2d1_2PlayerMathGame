@@ -14,6 +14,8 @@
 		889B54491F0A988200510D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889B54481F0A988200510D6E /* Assets.xcassets */; };
 		889B544C1F0A988200510D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889B544A1F0A988200510D6E /* LaunchScreen.storyboard */; };
 		889B54571F0A988200510D6E /* _w2d1_2PlayerMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B54561F0A988200510D6E /* _w2d1_2PlayerMathTests.m */; };
+		889B54631F0A98C000510D6E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B54621F0A98C000510D6E /* Player.m */; };
+		889B54661F0A98D000510D6E /* GameControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 889B54651F0A98D000510D6E /* GameControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +33,8 @@
 		889B543D1F0A988200510D6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		889B543F1F0A988200510D6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		889B54401F0A988200510D6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		889B54421F0A988200510D6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		889B54431F0A988200510D6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		889B54421F0A988200510D6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = 2w2d1_2PlayerMath/ViewController.h; sourceTree = "<group>"; };
+		889B54431F0A988200510D6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = 2w2d1_2PlayerMath/ViewController.m; sourceTree = "<group>"; };
 		889B54461F0A988200510D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		889B54481F0A988200510D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		889B544B1F0A988200510D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,10 @@
 		889B54521F0A988200510D6E /* 2w2d1_2PlayerMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2w2d1_2PlayerMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		889B54561F0A988200510D6E /* _w2d1_2PlayerMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _w2d1_2PlayerMathTests.m; sourceTree = "<group>"; };
 		889B54581F0A988200510D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889B54611F0A98C000510D6E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		889B54621F0A98C000510D6E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		889B54641F0A98D000510D6E /* GameControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameControl.h; sourceTree = "<group>"; };
+		889B54651F0A98D000510D6E /* GameControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,13 @@
 		889B54301F0A988200510D6E = {
 			isa = PBXGroup;
 			children = (
+				889B54421F0A988200510D6E /* ViewController.h */,
+				889B54431F0A988200510D6E /* ViewController.m */,
+				889B54451F0A988200510D6E /* Main.storyboard */,
+				889B54641F0A98D000510D6E /* GameControl.h */,
+				889B54651F0A98D000510D6E /* GameControl.m */,
+				889B54611F0A98C000510D6E /* Player.h */,
+				889B54621F0A98C000510D6E /* Player.m */,
 				889B543B1F0A988200510D6E /* 2w2d1_2PlayerMath */,
 				889B54551F0A988200510D6E /* 2w2d1_2PlayerMathTests */,
 				889B543A1F0A988200510D6E /* Products */,
@@ -83,12 +96,6 @@
 			children = (
 				889B543F1F0A988200510D6E /* AppDelegate.h */,
 				889B54401F0A988200510D6E /* AppDelegate.m */,
-				889B54421F0A988200510D6E /* ViewController.h */,
-				889B54431F0A988200510D6E /* ViewController.m */,
-				889B54451F0A988200510D6E /* Main.storyboard */,
-				889B54481F0A988200510D6E /* Assets.xcassets */,
-				889B544A1F0A988200510D6E /* LaunchScreen.storyboard */,
-				889B544D1F0A988200510D6E /* Info.plist */,
 				889B543C1F0A988200510D6E /* Supporting Files */,
 			);
 			path = 2w2d1_2PlayerMath;
@@ -97,6 +104,9 @@
 		889B543C1F0A988200510D6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				889B54481F0A988200510D6E /* Assets.xcassets */,
+				889B544A1F0A988200510D6E /* LaunchScreen.storyboard */,
+				889B544D1F0A988200510D6E /* Info.plist */,
 				889B543D1F0A988200510D6E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -213,8 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889B54631F0A98C000510D6E /* Player.m in Sources */,
 				889B54441F0A988200510D6E /* ViewController.m in Sources */,
 				889B54411F0A988200510D6E /* AppDelegate.m in Sources */,
+				889B54661F0A98D000510D6E /* GameControl.m in Sources */,
 				889B543E1F0A988200510D6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +256,7 @@
 				889B54461F0A988200510D6E /* Base */,
 			);
 			name = Main.storyboard;
+			path = 2w2d1_2PlayerMath;
 			sourceTree = "<group>";
 		};
 		889B544A1F0A988200510D6E /* LaunchScreen.storyboard */ = {
